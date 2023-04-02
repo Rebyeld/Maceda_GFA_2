@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See ya later, Calculator</title>
+
+    <link rel="stylesheet" href="Style.css">
+ </head>
+ <body>
+    <div class="Title">
+    <h1>COOL CALC</h1>
+    </div>
+
+    <div class="Instructions">
+    <p>This page is a very SIMPLE and COOL online calc</p>
+    <h3>INSTRUCTIONS</h3>
+    <p>1. Type in two numbers of your choice.</p>
+    <p>2. Click on operators in the 5 boxes to either find the sum, difference, product, quotient or remainder of the numbers of your choosing.</p>
+    </div>
+
+    <div class="operations">
+
+    Num1: <input type="number" id="Num1" value="">
+    Num2: <input type="number" id="Num2" value="">
+
+    <br>
+    <br>
+
+    <button onclick="plusFunction()">+</button>
+    <button onclick="minusFunction()">-</button>
+    <button onclick="multiplyFunction()">*</button>
+    <button onclick="divideFunction()">/</button>
+    <button onclick="modulusFunction()">%</button>
+
+    <h3>THE RESULTS:</h3>
+
+    <p id="results"></p>
+
+    </div>
+
+    <script src="Functions.js"></script>
+ </body>
+ </html>
